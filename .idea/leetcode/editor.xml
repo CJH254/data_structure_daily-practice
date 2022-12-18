@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="/var/folders/6w/k41l17r528zdykxv6nxpn01c0000gn/T/leetcode/editor/cn/[152]乘积最大子数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/6w/k41l17r528zdykxv6nxpn01c0000gn/T/leetcode/editor/cn/doc/content/[152]乘积最大子数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn152" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/6w/k41l17r528zdykxv6nxpn01c0000gn/T/leetcode/editor/cn/[152]乘积最大子数组.java" />
+              <option name="titleSlug" value="maximum-product-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/6w/k41l17r528zdykxv6nxpn01c0000gn/T/leetcode/editor/cn/[93]复原 IP 地址.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/6w/k41l17r528zdykxv6nxpn01c0000gn/T/leetcode/editor/cn/doc/content/[93]复原 IP 地址.md" />
+              <option name="frontendQuestionId" value="leetcode.cn93" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/6w/k41l17r528zdykxv6nxpn01c0000gn/T/leetcode/editor/cn/[93]复原 IP 地址.java" />
+              <option name="titleSlug" value="restore-ip-addresses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
