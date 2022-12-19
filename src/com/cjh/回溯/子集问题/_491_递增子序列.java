@@ -27,8 +27,8 @@ public class _491_递增子序列 {
         if (path.size() >= 2) {
             result.add(new ArrayList<>(path));
         }
-        // 相等的情况用set来排查掉了，因为不能排序，很难保证后续可能会有位置不对，但组合起来元素相等的情况发生，所以选择用set去重
-        // set也不需要再回溯，只需要保持已添加的结果集即可
+        // 相等的情况用set来排查掉了，因为不能排序，很难保证后续可能会有位置不对，数组的话就不能很好的去重了。但组合起来元素相等的情况发生，所以选择用set去重
+        // 同一层循环set也不需要再回溯，只需要保持已添加的结果集即可，因为后续可能会遇到重复的元素。
         Set<Integer> set = new HashSet<>();
         for (int i = startIndex; i < nums.length; i++) {
             int currentVal = nums[i];
