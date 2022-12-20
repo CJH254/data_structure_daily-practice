@@ -23,6 +23,7 @@ public class _102_二叉树的层序遍历 {
     }
 
     private void dfs(TreeNode root, int level) {
+        // 递归写法的妙处就在于，在每一层的第一个左节点开始才会创建该level的队列
         if (res.size() - 1 < level) {
             res.add(new ArrayList<>());
         }
