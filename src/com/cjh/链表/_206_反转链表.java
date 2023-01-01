@@ -12,6 +12,7 @@ public class _206_反转链表 {
         ListNode cur = head;
         ListNode pre = null;
         while (cur != null) {
+            // 保存head的下一个节点，因为head要改变next指针，避免next节点丢失
             ListNode temp = cur.next;
             cur.next = pre;
             pre = cur;
